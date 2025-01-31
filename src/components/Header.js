@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+
 import Button from './Button'
 
 const Header = ({title}) => {
@@ -12,13 +12,9 @@ const Header = ({title}) => {
   </header>
   )
 }
-Header.defaultProps = {
-    title:'Task Tracker',
-}
 
-Header.propTypes = {
-    title: PropTypes.string.isRequired,
-}
+
+
 //css in js
 // const headingStyle = {
 //     color:'red',
